@@ -151,9 +151,18 @@ body{
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #fff;
+  color: #000;
   transform: rotateY(180deg);
+}
+.flip-card-back  h3{
+  font-weight: 700;
+}
+.flip-card-back p {
+  padding: 50px;
+  line-height: 1.7em;
+  font-weight: 500;
+
 }
 .flip-card-back h3{
   padding-top: 20%;
